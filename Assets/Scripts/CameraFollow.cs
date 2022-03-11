@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+	// taking player as gameobject and camera follow player
     public Transform target;
+	
     public Vector3 offset;
+
+	//Linearly interpolates between camera and player.
     public float lerpValue;
 
 
